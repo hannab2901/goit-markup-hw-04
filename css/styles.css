@@ -327,6 +327,30 @@ body {
 .social li:not(:last-child) {
   margin-right: 10px;
 }
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+.our-clients {
+  display: flex;
+}
+
 /* конец студии */
 /* портфолио */
 .border {
