@@ -137,6 +137,28 @@ body {
 .info:focus {
   color: var(--accent-color);
 }
+
+.header-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  fill: var(--accent-color);
+}
+
+.header-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  fill: var(--accent-color);
+}
 /* Студия */
 
 .hero {
