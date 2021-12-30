@@ -137,16 +137,7 @@ body {
 .info:focus {
   color: var(--accent-color);
 }
-.mail::before {
-  content: "";
-  background-image: url(../img/envelope.svg);
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-size: contain;
-  fill: var(--accent-color);
-}
-/* Теорія
+
 .header-mail {
   width: 16px;
   height: 12px;
@@ -168,7 +159,6 @@ body {
 .header-tel:focus {
   fill: var(--accent-color);
 }
-*/
 
 /* Студия */
 
