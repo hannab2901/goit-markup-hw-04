@@ -159,7 +159,6 @@ body {
 .header-tel:focus {
   fill: var(--accent-color);
 }
-
 /* Студия */
 
 .hero {
