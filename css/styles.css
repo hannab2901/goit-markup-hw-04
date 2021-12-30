@@ -218,8 +218,12 @@ body {
 .benefits-container li:not(:last-child) {
   margin-right: 30px;
 }
-.benefits-container p {
+.title {
   width: 270px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .andr-head {
   padding-bottom: 10px;
@@ -244,6 +248,18 @@ body {
   margin-right: 30px;
 }
 
+.andr-head::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .andr-head {
   font-weight: 700;
   font-size: 14px;
@@ -252,6 +268,7 @@ body {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 .our-team {
   display: flex;
 }
