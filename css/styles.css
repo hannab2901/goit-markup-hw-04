@@ -302,6 +302,31 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.team-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: #afb1b8;
+}
+.team-icon:hover,
+.team-icon:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+.social {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 50%;
+}
+.social li {
+  box-shadow: none;
+}
+.social li:not(:last-child) {
+  margin-right: 10px;
+}
 /* конец студии */
 /* портфолио */
 .border {
