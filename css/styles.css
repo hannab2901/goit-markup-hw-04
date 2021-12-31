@@ -257,8 +257,7 @@ body {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-left: 100px;
+  padding: 25px 100px;
 }
 .andr-head {
   font-weight: 700;
@@ -310,29 +309,29 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  position: center;
 }
+/*
 .team-icon:hover,
 .team-icon:focus {
   fill: #ffffff;
-  background-color: var(--accent-color);
   border-radius: 50%;
-}
-/* ШТОСЬ
-.social li {
-  width: 44px;
-  height: 44px;
-}
-.h {
-  width: 44px;
-  height: 44px;
+  background-color: var(--accent-color);
 }
 */
+.social-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
 .social {
   display: flex;
   margin-top: 16px;
   margin-left: 32px;
   margin-right: 32px;
-  border-radius: 50%;
 }
 .social li {
   box-shadow: none;
