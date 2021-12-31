@@ -309,16 +309,11 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-  position: center;
 }
-/*
 .team-icon:hover,
 .team-icon:focus {
   fill: #ffffff;
-  border-radius: 50%;
-  background-color: var(--accent-color);
 }
-*/
 .social-icon {
   display: block;
   width: 44px;
@@ -326,7 +321,11 @@ body {
   border-radius: 50%;
   padding: 12px;
 }
-
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
 .social {
   display: flex;
   margin-top: 16px;
@@ -345,20 +344,30 @@ body {
   padding-bottom: 94px;
 }
 .clients-icon {
+  fill: #afb1b8;
+  width: 106px;
+  height: 60px;
+}
+
+.cln-icon {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
   padding: 16px 32px;
-  fill: #afb1b8;
+  display: block;
 }
 
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
+.cln-icon:focus,
+.cln-icon:hover {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+
 .our-clients {
   display: flex;
 }
@@ -510,21 +519,27 @@ body {
   display: flex;
 }
 .footer-icon {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
+  width: 20px;
+  height: 20px;
   fill: #ffffff;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 20px;
 }
-.footer-icon:focus,
-.footer-icon:hover {
+.ftr-icon:focus,
+.ftr-icon:hover {
   background: #2196f3;
 }
-.f-social {
+.ftr-social {
   display: flex;
 }
-.f-social li:not(:first-child) {
+.ftr-social li:not(:first-child) {
   margin-left: 10px;
+}
+.ftr-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+  border: 1px;
 }
