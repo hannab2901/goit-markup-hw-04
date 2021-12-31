@@ -472,3 +472,38 @@ body {
 .adres-pading {
   margin-top: 20px;
 }
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-social {
+  width: 206px;
+  padding-left: 0px;
+  margin-left: 70px;
+}
+.footer-flex {
+  display: flex;
+}
+.footer-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+margin-top: 20px;
+}
+.footer-icon:focus,
+.footer-icon:hover{
+  background: #2196F3;
+}
+.f-social {
+  display: flex;
+}
+.f-social li:not(:first-child) {
+  margin-left: 10px;
