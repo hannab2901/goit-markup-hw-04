@@ -131,20 +131,22 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.info:hover svg,
+.info:focus svg {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
 .info:hover,
 .info:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-
 .header-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: var(--primary-text-color);
-}
-.header-mail:hover,
-.header-mail:focus {
-  fill: var(--accent-color);
 }
 
 .header-tel {
@@ -153,10 +155,7 @@ body {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.header-tel:hover,
-.header-tel:focus {
-  fill: var(--accent-color);
-}
+
 /* Студия */
 
 .hero {
@@ -308,10 +307,7 @@ body {
   height: 20px;
   fill: #afb1b8;
 }
-.team-icon:hover,
-.team-icon:focus {
-  fill: #ffffff;
-}
+
 .social-icon {
   display: block;
   width: 44px;
@@ -321,6 +317,11 @@ body {
 }
 .social-icon:hover,
 .social-icon:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icon:hover svg,
+.social-icon:focus svg {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
@@ -357,8 +358,8 @@ body {
   display: block;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.cln-icon:focus svg,
+.cln-icon:hover svg {
   fill: var(--accent-color);
 }
 .cln-icon:focus,
